@@ -13,7 +13,18 @@ Once logged in, the user can run the worksheet named 'Query' and view the result
 
 ## Organization of Repo
 
-<img width="448" alt="Screenshot 2024-07-11 at 7 05 02 PM" src="https://github.com/user-attachments/assets/539bb59a-f1da-43b1-b10e-6443ab23a912">
+```
+/RECS-DBMS
+  ├── /datasets
+      └── RECS 2020 Codebook for Public File - v7.xlsx
+      └── recs2020_public_v7.csv
+  ├── DataTransformation_DBPopulation.ipynb
+  ├── Database_Create.sql
+  ├── Query_Text.sql
+  ├── config_file.json
+  ├── README.md
+  ├── RECS_Database_Questions.docx
+  ```
 
 ## Data Files
 
@@ -26,3 +37,5 @@ This project uses data from "2020 RECS Data Survey" and "Variable and Response C
 ## Results
 
 <img width="744" alt="Screenshot 2024-07-11 at 6 42 36 PM" src="https://github.com/user-attachments/assets/20a6f495-b693-4164-b25d-ae70219583f9">
+
+#### Follow-up questions to ask the team, to gather requirements for the database, are in the word file "RECS_Database_Questions".
